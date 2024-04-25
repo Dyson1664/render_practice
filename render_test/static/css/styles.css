@@ -8,3 +8,36 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
+.container2 {
+    border: 2px solid black;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    }
+
+.container3 {
+    border: 2px solid black;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    }
+
+.container4 {
+    display: flex;
+    align-items: flex-start;
+    border: 2px solid black;
+    }
+
+/* Add this to your CSS file */
+.img-size {
+    width: 150px;  /* Set the width you want */
+    height: 100px; /* Set the height you want */
+    object-fit: cover; /* This property makes sure the image covers the area without distorting its aspect ratio */
+}
